@@ -1,10 +1,9 @@
-
 const state = () => {
-
+  
 }
 
-const mutations = () => {
-
+cnst mutations = () => {
+  
 }
 
 const actions = () => {

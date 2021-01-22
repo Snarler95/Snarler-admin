@@ -1,9 +1,8 @@
 <template>
   <a-layout-content>
-    content
-    <a-layout-footer style="text-align: center">
-      Ant Design ©2018 Created by Ant UED
-    </a-layout-footer>
+    <transition name="fade" mode="out-in">
+      <router-view></router-view>
+    </transition>
   </a-layout-content>
 </template>
 
